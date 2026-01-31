@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isSameTypedArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-typed-array-like@deno/mod.js';
+import isSameTypedArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-typed-array-like@v0.1.0-deno/mod.js';
 ```
 
 #### isSameTypedArrayLike( v1, v2 )
@@ -75,7 +75,7 @@ bool = isSameTypedArrayLike( x, new Int8Array( [ -1.0, 2.0 ] ) );
 ```javascript
 import Int8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@deno/mod.js';
 import Int16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int16@deno/mod.js';
-import isSameTypedArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-typed-array-like@deno/mod.js';
+import isSameTypedArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-typed-array-like@v0.1.0-deno/mod.js';
 
 var x = new Int8Array( [ 1.0, 2.0, 3.0 ] );
 var y = new Int16Array( [ 1.0, 2.0, 3.0 ] );
