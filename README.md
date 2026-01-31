@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isSameTypedArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-typed-array-like@esm/index.mjs';
+import isSameTypedArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-typed-array-like@v0.1.0-esm/index.mjs';
 ```
 
 #### isSameTypedArrayLike( v1, v2 )
@@ -80,7 +80,7 @@ bool = isSameTypedArrayLike( x, new Int8Array( [ -1.0, 2.0 ] ) );
 
 import Int8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@esm/index.mjs';
 import Int16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int16@esm/index.mjs';
-import isSameTypedArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-typed-array-like@esm/index.mjs';
+import isSameTypedArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-typed-array-like@v0.1.0-esm/index.mjs';
 
 var x = new Int8Array( [ 1.0, 2.0, 3.0 ] );
 var y = new Int16Array( [ 1.0, 2.0, 3.0 ] );
