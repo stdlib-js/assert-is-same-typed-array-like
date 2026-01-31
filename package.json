@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-same-typed-array-like",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Test if two arguments are both typed-array-like object and have the same values.",
   "license": "Apache-2.0",
   "author": {
