@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+isSameTypedArrayLike = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-typed-array-like@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-same-typed-array-like/tags). For example,
+
+```javascript
 isSameTypedArrayLike = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-typed-array-like@v0.1.1-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var isSameTypedArrayLike = require( 'path/to/vendor/umd/assert-is-same-typed-arr
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-typed-array-like@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-typed-array-like@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -102,7 +107,7 @@ bool = isSameTypedArrayLike( x, new Int8Array( [ -1.0, 2.0 ] ) );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-int16@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-typed-array-like@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-typed-array-like@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
